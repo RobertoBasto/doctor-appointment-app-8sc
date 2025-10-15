@@ -13,11 +13,13 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <script src="https://kit.fontawesome.com/32ef592ab6.js" crossorigin="anonymous"></script>
 
         <!-- Styles -->
         @livewireStyles
     </head>
     <body class="font-sans antialiased bg-gray-50">
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
      
      @include('layouts.includes.admin.navigation')
 
