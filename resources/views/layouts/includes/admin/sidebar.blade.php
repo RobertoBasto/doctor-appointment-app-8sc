@@ -1,5 +1,5 @@
 @php
-//Arreglo de icnonos
+//Arreglo de iconos
    $links = [
       [
          'name' => 'Dashboard',
