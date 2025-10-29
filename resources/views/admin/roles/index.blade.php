@@ -3,8 +3,7 @@
         'name'=>'Dashboard',
         'href'=> route('admin.dashboard'),
     ],
-
-    ['name' => 'Profile'],
+    ['name' => 'Roles'],
 ]">
- Hola iris
+@livewire('admin.datatables.role-table')
 </x-admin-layout>
