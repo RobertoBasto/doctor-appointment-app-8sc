@@ -36,14 +36,19 @@
         <!--añadir margen superior-->
         <div class="mt-14 flex items-center justify-between w-full"> 
           @include('layouts.includes.admin.breadcrumb')
-
+      @if (isset($action))
+        <div>
+          {{$action}}
         </div>
-
+      @endif
+        </div>
+            
       {{$slot}}
       
     </div>
         @stack('modals')
 
         @livewireScripts
+
     </body>
 </html>
