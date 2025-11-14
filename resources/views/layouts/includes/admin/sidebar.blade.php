@@ -17,6 +17,14 @@
          'href' => route('admin.roles.index'),
          'active' => request()->routeIs('admin.roles.*'),
       ],
+      //copia para los usuarios
+      [
+         'name' => 'Usuarios',
+         'icon' => 'fa-solid fa-users',
+         'href' => route('admin.users.index'),
+         'active' => request()->routeIs('admin.users.*'),
+      ],
+//////////////////////////////////////////////
        
    ];
 @endphp    

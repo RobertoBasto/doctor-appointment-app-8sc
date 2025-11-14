@@ -15,7 +15,8 @@ class RoleController extends Controller
     {
         return view('admin.roles.index');
     }
-
+    /////////////////////////////////////
+    ////////////////////////////////////////
     /**
      * Show the form for creating a new resource.
      */
