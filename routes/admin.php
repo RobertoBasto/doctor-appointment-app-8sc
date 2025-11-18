@@ -10,7 +10,7 @@ Route::get('/', function(){
 //gestion de roles
 Route::resource('roles',RoleController::class);
 
-/////////////////////////////////////gestion de usuarios
+//gestion de usuarios
 Route::resource('users',UsuarioController::class);
 /////////////////////////////////////////////////
 ?>
